@@ -25,7 +25,7 @@ import post from "./tech/Postgre.png"
 
 import corgi from "./company/Corgi.png";
 import madd from "./company/madd.png";
-import red from "./company/red.png";
+import red from "./company/Red.png";
 
 import dataRebels from "./dataRebels.jpeg";
 import TTS from "./TTS.png";
