@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import { expression } from "three/examples/jsm/nodes/Nodes.js";
 
-
+// this maps through all the experiance from the const colder and sets them on the timeline with their points and date and icons
 const ExperienceCard = ({experience})=>(
 <VerticalTimelineElement
 contentStyle={{background: '#1d1836', color: '#fff'}}
@@ -36,7 +36,7 @@ icon= {
 </ul>
 </VerticalTimelineElement>
 )
-
+// sets the main body experience on the timeline 
 const Experience = () => {
   return (
     <>
