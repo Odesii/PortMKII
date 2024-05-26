@@ -59,7 +59,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3 className='text-white font-bold text-[24px]'>{name}<span className='text-[#915eff]'>.</span></h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
@@ -82,8 +82,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>the Goods</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects<span className='text-[#915eff]'>.</span></h2>
       </motion.div>
 
       <div className='w-full flex'>
