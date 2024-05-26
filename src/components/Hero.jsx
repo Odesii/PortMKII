@@ -15,8 +15,9 @@ const Hero = () => {
             Meet [<span className='text-[#915eff]'>Odesii</span>]
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I carve my path as a Web Developer, <br className='sm:block hidden' />
-          Programmer, and Designer.
+          I carve my path as a <span className='text-[#915eff]'>Designer</span>, <br className='sm:block hidden' />
+           <span className='text-[#915eff]'>Web Developer</span>,
+          and <span className='text-[#925eff]'>Programmer</span>.
           </p>
         </div>
       </div>
