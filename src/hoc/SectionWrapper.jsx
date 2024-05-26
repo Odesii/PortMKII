@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import { staggerContainer } from "../utils/motion";
-
+// this is a higher order component that wraps a section giving it an animation effect and its id for page navigation
 const StarWrapper = (Component, idName) =>
   function HOC() {
     return (

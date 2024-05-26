@@ -39,7 +39,7 @@ const About = () => {
 
     <motion.p variants={fadeIn('', '', 0.1, 1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    n the neon-lit labyrinth of the digital world, I am a digital ronin—a full-stack developer, artist, and game designer. 
+    In the neon-lit labyrinth of the digital world, I am a ronin—a full-stack developer, artist, and game designer. 
     Creativity honed at the Fashion Institute of Technology (FIT), 
     my arsenal the Full Adobe Suite, Blender, and any type of camera. 
     Proficient in JavaScript and skilled with frameworks like React, Node.js, and Three.js, 
