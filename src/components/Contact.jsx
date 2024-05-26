@@ -29,8 +29,8 @@ return (
       variants={slideIn("left", "tween", 0.2, 1)}
       className='flex-[0.75] bg-black-100 bg-opacity-55 p-8 rounded-2xl'
     >
-      <p className={styles.sectionSubText}>Get in touch</p>
-      <h3 className={styles.sectionHeadText}>Contact.</h3>
+      <p className={styles.sectionSubText}>Reach Out</p>
+      <h3 className={styles.sectionHeadText}>Contact<span className='text-[#915eff]'>.</span></h3>
 
       <form
         ref={formRef}
@@ -38,35 +38,35 @@ return (
         className='mt-12 flex flex-col gap-8'
       >
         <label className='flex flex-col'>
-          <span className='text-white font-medium mb-4'>Your Name</span>
+          <span className='text-white font-medium mb-4'>Your handel<span className='text-[#915eff]'>.</span></span>
           <input
             type='text'
             name='name'
             value={form.name}
             onChange={handleChange}
-            placeholder="What's your good name?"
+            placeholder="Who are you?"
             className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
           />
         </label>
         <label className='flex flex-col'>
-          <span className='text-white font-medium mb-4'>Your email</span>
+          <span className='text-white font-medium mb-4'>Your email<span className='text-[#915eff]'>.</span></span>
           <input
             type='email'
             name='email'
             value={form.email}
             onChange={handleChange}
-            placeholder="What's your web address?"
+            placeholder="What's your email?"
             className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
           />
         </label>
         <label className='flex flex-col'>
-          <span className='text-white font-medium mb-4'>Your Message</span>
+          <span className='text-white font-medium mb-4'>Your Message<span className='text-[#915eff]'>.</span></span>
           <textarea
             rows={7}
             name='message'
             value={form.message}
             onChange={handleChange}
-            placeholder='What you want to say?'
+            placeholder='What do you want?'
             className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
           />
         </label>

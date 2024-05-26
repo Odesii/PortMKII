@@ -9,7 +9,7 @@ const Navbar = () => {
 const [active, setActive] = useState("");
 const [toggle, setToggle] = useState(false);
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-y fixed top-o z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-y fixed top-o z-20 bg-primary bg-opacity-75`}>
       <div className="w-full flex justify-between item-center max-w-7xl mx-auto">
         <Link 
           to="/" 
@@ -35,7 +35,7 @@ const [toggle, setToggle] = useState(false);
             onClick={()=> setActive(link.title)}
             >
 
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${link.id}>`}>{link.title}</a>
             </li>
           ))}
         </ul>
