@@ -9,7 +9,7 @@ import close from "./close.svg";
 import play from "./play.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import blender from "./tech/Blender.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -19,19 +19,20 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import photoshop from "./tech/Photoshop.png";
+import threejs from "./tech/threejs.png";
+import post from "./tech/Postgre.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import corgi from "./company/Corgi.png";
+import madd from "./company/madd.png";
+import red from "./company/red.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dataRebels from "./dataRebels.jpeg";
+import TTS from "./TTS.png";
+import rain from "./rain.gif";
 
 export {
+  post,
   logo,
   backend,
   creator,
@@ -41,7 +42,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  blender,
   figma,
   git,
   html,
@@ -51,14 +52,13 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
+  photoshop,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  corgi,
+  madd,
+  red,
+  dataRebels,
+  TTS,
+  rain,
   play,
 };

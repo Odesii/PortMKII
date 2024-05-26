@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    photoshop,
     html,
     css,
     reactjs,
@@ -14,15 +14,15 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    blender,
+    madd,
+    corgi,
+    red,
+    dataRebels,
+    TTS,
+    rain,
     threejs,
+    post,
   } from "../assets";
   
   export const navLinks = [
@@ -33,6 +33,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: 'project',
+      title: 'Projects'
     },
     {
       id: "contact",
@@ -73,8 +77,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Photoshop",
+      icon: photoshop,
     },
     {
       name: "React JS",
@@ -109,55 +113,47 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "blender",
+      icon: blender,
+    },
+    {
+      name: "Postgres",
+      icon: post,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      "title": "Freelance Photographer",
+      "company_name": "Madd Eye",
+      "icon": red,
+      "iconBg": "#383E56",
+      "date": "Jan 2019 - Present",
+      "points": [
+        "Providing professional photography services for a variety of clients, including event, portrait, and commercial photography.",
+        "Published in several online and print publications, showcasing expertise in capturing compelling images.",
+        "Collaborating with clients to understand their vision and deliver high-quality photographs that meet their needs.",
+        "Utilizing advanced editing software to enhance and retouch images, ensuring a polished final product.",
+      ]
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      "title": "Freelance Graphic Designer",
+      "company_name": "Madd Eye",
+      "icon": madd,
+      "iconBg": "#383E56",
+      "date": "Jan 2019 - Present",
+      "points": [
+        "Creating and developing brand identities for small businesses, including logos, business cards, and marketing materials.",
+        "Collaborating with clients to understand their brand vision and deliver designs that effectively communicate their message.",
+        "Utilizing Adobe Suite and other graphic design tools to produce high-quality visual content.",
+        "Designing and maintaining web applications using React.js and other related technologies.",
+        "Implementing responsive design and ensuring cross-browser compatibility."
+      ]
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full Stack Developer",
+      company_name: "Corgis.ai",
+      icon: corgi,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -171,60 +167,60 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Data Rebels",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Data Rebels is a turn-based game rooted in the worlds of cyberpunk and hackers, where your goal is simple: either carve your legend or perish trying.",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PostgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Three JS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: dataRebels,
+      source_code_link: "https://github.com/Odesii/dataRebels",
+      liveLink:'https://datarebels.onrender.com/',
+    },
+    {
+      name: "TTS",
+      description:
+        "TBD",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Phaser JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: TTS,
       source_code_link: "https://github.com/",
       liveLink:'',
     },
     {
-      name: "Job IT",
+      name: "When the Rain Falls",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A simple Vaporwave inspired weather app that uses the OpenWeatherMap API to display the current weather in a city of your choice.",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      liveLink:'',
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Html",
           color: "green-text-gradient",
         },
         {
@@ -232,9 +228,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      liveLink:'',
+      image: rain,
+      source_code_link: "https://github.com/Odesii/whenRainFalls",
+      liveLink:'https://odesii.github.io/whenRainFalls/',
     },
   ];
   

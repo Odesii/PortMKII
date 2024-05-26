@@ -106,4 +106,4 @@ With links to the source code on github and a live page.
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "project");
