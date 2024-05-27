@@ -15,7 +15,7 @@ Yes, I use a tech stack. No, it's not for show. Below are the primary technologi
 - ![Framer-motion](https://img.shields.io/badge/Framer--motion-black?style=for-the-badge&logo=framer)
 
 ### Screen shot
-![screen](https://i.imgur.com/N0dfsne.gif)
+![screen](https://i.imgur.com/mEL0Dnw.png)
 ## Features 
 - Responsive Design: Fully responsive and optimized for all devices, providing a seamless experience on desktops, tablets, and smartphones.
 - 3D Graphics: Utilizing THREE.js, featuring intricate 3D models and animations because flat design is so last decade
