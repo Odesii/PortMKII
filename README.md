@@ -22,7 +22,7 @@ Yes, I use a tech stack. No, it's not for show. Below are the primary technologi
 - Interactive UI: With React and Framer Motion, the site includes dynamic interactions and animations.
 - Fast Performance: Built with Vite, so it actually loads before you lose interest.
 ## Contributions
-I would like to acknowledge the contributions and assets used. Please refer to the licenses in the public folder for detailed information
+I would like to acknowledge assets used. Please refer to the licenses in the public folder for detailed information.
 
 ## Contact
 Got something to say? Great. Whether it’s questions, feedback, or collaboration ideas, I'm listening... reluctantly.
