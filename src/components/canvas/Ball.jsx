@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Decal, Float, Preload, useTexture } from '@react-three/drei'
 
@@ -10,7 +10,7 @@ const Ball = (props) => {
     <Float speed={2} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={2.75}>
+      <mesh castShadow receiveShadow scale={2.75} >
         <sphereGeometry args={[1, 15, 15]} />
         <meshStandardMaterial
           color='#fff8eb'
@@ -32,6 +32,7 @@ const Ball = (props) => {
 
 const BallCanvas = ({icon}) => {
   return (
+
     <Canvas
       frameloop='always'
       dpr={[1, 2]}

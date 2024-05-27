@@ -1,5 +1,5 @@
 import {Html, useProgress} from '@react-three/drei';
-import { progress } from 'framer-motion';
+
 
 // this is the loader component that will be shown while the model is loading
 const Loader = () => {
