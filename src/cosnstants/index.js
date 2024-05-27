@@ -81,8 +81,16 @@ import {
       icon: photoshop,
     },
     {
+      name: "blender",
+      icon: blender,
+    },
+    {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
     },
     {
       name: "Redux Toolkit",
@@ -101,20 +109,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    {
-      name: "blender",
-      icon: blender,
     },
     {
       name: "Postgres",
