@@ -1,4 +1,5 @@
 import {
+  Download,
     mobile,
     backend,
     creator,
@@ -13,7 +14,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     blender,
     madd,
     corgi,

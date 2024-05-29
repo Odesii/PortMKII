@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import play from "./play.png";
-
+import Download from "./download.svg";
 import css from "./tech/css.png";
 import blender from "./tech/Blender.png";
 import figma from "./tech/figma.png";
@@ -32,6 +32,7 @@ import TTS from "./TTS.png";
 import rain from "./rain.gif";
 
 export {
+  Download,
   post,
   logo,
   backend,
