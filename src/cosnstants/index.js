@@ -187,7 +187,7 @@ import {
     {
       name: "TTS",
       description:
-        "TBD",
+        "TTS is a top-down pixel game, with loot and an extraction gameplay loop. It has a persistent leaderboard and is expanding out to multiplayer.",
       tags: [
         {
           name: "React",
@@ -201,10 +201,14 @@ import {
           name: "MongoDB",
           color: "pink-text-gradient",
         },
+        {
+          name: "Socket.io",
+          color: "purple-text-gradient",
+        },
       ],
       image: TTS,
-      source_code_link: "https://github.com/Odesii",
-      liveLink:'',
+      source_code_link: "https://github.com/Odesii/TTS",
+      liveLink:'https://takeshrooms-691c8b570217.herokuapp.com/',
     },
     {
       name: "When the Rain Falls",
