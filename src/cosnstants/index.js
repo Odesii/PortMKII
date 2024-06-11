@@ -23,6 +23,7 @@ import {
     rain,
     threejs,
     post,
+    Reyn,
   } from "../assets";
   
   export const navLinks = [
@@ -187,7 +188,7 @@ import {
     {
       name: "TTS",
       description:
-        "TTS is a top-down pixel game, with loot and an extraction gameplay loop. It has a persistent leaderboard and is expanding out to multiplayer.",
+        "TTS is a top-down pixel game, with loot and an extraction gameplay loop. It has a persistent leaderboard and is expanding out to multiplayer. Socket.io integrations are in the works.",
       tags: [
         {
           name: "React",
@@ -232,6 +233,27 @@ import {
       source_code_link: "https://github.com/Odesii/whenRainFalls",
       liveLink:'https://odesii.github.io/whenRainFalls/',
     },
+    {
+      name: "3D Portfolio",
+      description:
+        "A 3D portfolio website built using Three.js, React.js, and Tailwind CSS. This site was Built for a personal portfolio to showcase projects and skills in a unique way.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Three JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Reyn,
+      source_code_link: "https://reyntakahashi.netlify.app/"
+    }
   ];
   
   export { services, technologies, experiences, projects };
