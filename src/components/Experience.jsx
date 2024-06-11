@@ -7,6 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import { useState } from "react";
 import  Modal  from "../utils/modal"; // Adjust the import path as needed
+import { Download } from "../assets";
 
 // this maps through all the experience from the const folder and sets them on the timeline with their points and date and icons
 const ExperienceCard = ({ experience }) => (
@@ -67,7 +68,7 @@ const Experience = () => {
             date = 'Resume Download ►'
             icon = {
               <a href='#' onClick={handleModalOpen}>
-                <img className='w-[100px] ' src='src/assets/Download.svg' alt='Download' />
+                <img className='w-[100px] ' src={Download} alt='Download' />
               </a>
             }
             iconStyle={{ background: '#1d1836', color: '#fff' }}
